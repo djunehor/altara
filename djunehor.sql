@@ -125,7 +125,8 @@ CREATE TABLE `users` (
   `username` varchar(50) NOT NULL,
   `password` varchar(250) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `lastLogin` int(30) NOT NULL
+  `lastLogin` int(30) NOT Null, 
+  `remember`varchar(64) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
